@@ -49,6 +49,7 @@ public class Main {
 				arr[start][i] = lastNum;
 				lastNum--;
 			}
+
 			start++;
 			end--;
 		}
