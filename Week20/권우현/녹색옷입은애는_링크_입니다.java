@@ -1,4 +1,4 @@
-package Week20;
+package Week20.권우현;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -11,8 +11,8 @@ public class 녹색옷입은애는_링크_입니다 {
     static int n;
     static int[][] map;
     static boolean[][] visited;
-    static int[] dx = {-1, 1, 0, 0};
-    static int[] dy = {0, 0, -1, 1};
+    static int[] dx = {0, 0, -1, 1};
+    static int[] dy = {-1, 1, 0, 0};
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         StringBuilder sb = new StringBuilder();
@@ -35,8 +35,6 @@ public class 녹색옷입은애는_링크_입니다 {
 
         }
         System.out.println(sb);
-
-
     }
 
     private static int bfs(){
@@ -49,6 +47,7 @@ public class 녹색옷입은애는_링크_입니다 {
             int x = tmp.x;
             int y = tmp.y;
             int cost = tmp.cost;
+            System.out.println("x = " + x+" y = "+y+" cost = "+cost);
 
             if (x==n-1&&y==n-1){
                 return cost;

@@ -1,4 +1,4 @@
-package Week20;
+package Week20.권우현;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -46,9 +46,6 @@ public class 개똥벌레 {
 
         System.out.println(min + " " + cnt);
 
-
-
-        
     }
 
     private static int bin(int[] array, int num) {
