@@ -73,7 +73,6 @@ public class Main {
 				int ny = polledCave.y + dy[i];
 				int reducedRupee = polledCave.reducedRupee;
 
-
 				if (nx < 0 || ny < 0 || nx >= length || ny >= length) {
 					continue;
 				}
