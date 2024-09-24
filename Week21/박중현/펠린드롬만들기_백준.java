@@ -10,14 +10,14 @@ public class Main {
 		// 규완이는 팰린드롬을 엄청 조항한다.
 		// 팰린드롬은 앞에서부터 읽으나 뒤에서부터 읽으나 같게 읽히는 문자열
 
-		// ababa -> ababa 5
+		// abab -> ababa 5
 		// abacaba -> abacaba 7
 		// qwerty -> qwertytrewq 11
 
 		String str = br.readLine();
 
-		int leftIdx = 0;
-		int rightIdx = str.length() - 1;
+		// int leftIdx = 0;
+		// int rightIdx = str.length() - 1;
 
 		int palindromCount = str.length();
 
