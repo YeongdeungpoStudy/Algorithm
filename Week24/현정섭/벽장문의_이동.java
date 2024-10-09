@@ -1,4 +1,4 @@
-package Week24;
+package Week24.현정섭;
 import java.io.*;
 import java.util.*;
 
