@@ -1,4 +1,4 @@
-package Week28;
+package Week28.권우현;
 
 import java.io.BufferedReader;
 import java.io.IOException;
